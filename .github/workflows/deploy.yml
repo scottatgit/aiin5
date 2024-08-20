@@ -1,0 +1,21 @@
+name: Deploy Next.js to Vercel
+
+on:
+  push:
+    branches:
+      - main  # Deploy when code is pushed to the main branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Deploy to Vercel
+        run: npx vercel --prod --token=${{ secrets.VERCEL_TOKEN }}
+
