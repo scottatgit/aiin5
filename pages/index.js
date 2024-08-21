@@ -7,7 +7,7 @@ export default function Home() {
         <h1>AI Strategy Consulting for Your Business</h1>
         <p>Unlock the power of AI with personalized strategies tailored to your business needs.</p>
         <Link href="/services">
-          <a>Explore Our Services</a>
+          Explore Our Services
         </Link>
       </header>
     </div>

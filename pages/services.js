@@ -17,7 +17,7 @@ export default function Services() {
         <p>Ongoing consulting and support for businesses implementing AI solutions. Includes monthly check-ins and priority support.</p>
       </section>
       <Link href="/contact">
-        <a>Contact Us to Learn More</a>
+        Contact Us to Learn More
       </Link>
     </div>
   );
